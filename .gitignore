@@ -13,3 +13,36 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+boris.denisenko  10:18 AM
+**/obj
+**/gen
+**/bin
+**/Debug
+**/libs
+**/build_*
+# Eclipse files
+**/.settings/
+# Gradle files
+**/local.properties
+**/build/
+# AndroidStudio files
+**/.idea/
+**/.gradle/
+**/*.iml
+**/gradlew.bat
+# MacOS
+**/*.DS_Store
+**/CMakeLists.txt.user
+# Docu
+**/docu/source/com
+**/docu/source/packages.rst
+**/build
+**/src/main/jniLibs
+sdk/.externalNativeBuild/**
+sdk/.cxx/**
+sdk/lib/.externalNativeBuild/**
+sdk/lib/.cxx/**
+sdk/proguardreport/usage.txt
+sdk/documentation/Markdown/api/**
+sdk/documentation/generated_HTML/**
