@@ -51,6 +51,7 @@
             android:layout_height="wrap_content"
             android:text="@string/ok_15" />
 
+
     </RadioGroup>
 
     <Switch
@@ -82,9 +83,7 @@
         app:layout_constraintTop_toBottomOf="@id/calculate_button" />
 
 
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 
